@@ -34,7 +34,7 @@
     },
     {
       "name": "contribution",
-      "pip": "git+https://github.com/openimis/openimis-be-contribution_py.git@develop#egg=openimis-be-contribution"
+      "pip": "git+https://github.com/parallelscore/openimis-be-contribution.git@develop#egg=openimis-be-contribution"
     },
     {
       "name": "payer",
