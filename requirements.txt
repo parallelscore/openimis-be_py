@@ -1,3 +1,5 @@
+# added an upgrade package that works
+attrs==23.1.0
 cached-property
 coverage~=6.4.4
 celery>=4.4
@@ -5,7 +7,8 @@ channels~=3.0.3
 channels-redis==3.2.0
 channels-rabbitmq==2.0.0
 django~=3.2.15
-djangorestframework
+# djangorestframework
+djangorestframework==3.11.0
 django-cryptography==1.1
 django-filter~=22.1
 #django-mssql-backend is a fork for django 3 of django-pyodbc-azure (django 2.1) which is a fork of django-pyodbc (1.x)
