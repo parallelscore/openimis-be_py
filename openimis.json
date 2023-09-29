@@ -26,7 +26,7 @@
     },
     {
       "name": "medical",
-      "pip": "git+https://github.com/openimis/openimis-be-medical_py.git@develop#egg=openimis-be-medical"
+      "pip": "git+https://github.com/parallelscore/openimis-be-medical_py.git@develop#egg=openimis-be-medical"
     },
     {
       "name": "medical_pricelist",
@@ -38,7 +38,7 @@
     },
     {
       "name": "insuree",
-      "pip": "git+https://github.com/parallelscore/openimis-be-insuree_py@develop#egg=openimis-be-insuree"
+      "pip": "git+https://github.com/parallelscore/openimis-be-insuree_py.git@develop#egg=openimis-be-insuree"
     },
     {
       "name": "policy",
@@ -58,7 +58,7 @@
     },
     {
       "name": "claim",
-      "pip": "git+https://github.com/openimis/openimis-be-claim_py.git@develop#egg=openimis-be-claim"
+      "pip": "git+https://github.com/parallelscore/openimis-be-claim_py.git@develop#egg=openimis-be-claim"
     },
     {
       "name": "claim_batch",
