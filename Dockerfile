@@ -1,4 +1,5 @@
-FROM python:3.8-buster
+# FROM python:3.8-buster
+FROM python:3.9.7-buster
 ENV PYTHONUNBUFFERED 1
 ARG DB_ENGINE
 ENV DB_ENGINE=${DB_ENGINE:-mssql}
@@ -23,7 +24,6 @@ ENV OPENIMIS_CONF_JSON=${OPENIMIS_CONF_JSON}
 RUN pip install gunicorn
 RUN pip install -r requirements.txt
 RUN python modules-requirements.py openimis.json > modules-requirements.txt
-RUN pip install --upgrade pip
 RUN pip install -r modules-requirements.txt
 
 ARG SENTRY_DSN
