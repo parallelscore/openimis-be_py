@@ -1,5 +1,4 @@
-# FROM python:3.8-buster
-FROM python:3.9.7-buster
+FROM python:3.8-buster
 ENV PYTHONUNBUFFERED 1
 ARG DB_ENGINE
 ENV DB_ENGINE=${DB_ENGINE:-mssql}
