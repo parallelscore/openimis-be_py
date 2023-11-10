@@ -42,7 +42,7 @@
     },
     {
       "name": "policy",
-      "pip": "git+https://github.com/parallelscore/openimis-be-policy_py@main#egg=openimis-be-policy"
+      "pip": "git+https://github.com/parallelscore/openimis-be-policy_py@develop#egg=openimis-be-policy"
     },
     {
       "name": "contribution",
@@ -82,7 +82,7 @@
     },
     {
       "name": "policyholder",
-      "pip": "git+https://github.com/openimis/openimis-be-policyholder_py.git@main#egg=openimis-be-policyholder"
+      "pip": "git+https://github.com/openimis/openimis-be-policyholder_py.git@develop#egg=openimis-be-policyholder"
     },
     {
       "name": "contract",
