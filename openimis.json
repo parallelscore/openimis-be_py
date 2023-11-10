@@ -42,7 +42,7 @@
     },
     {
       "name": "policy",
-      "pip": "git+https://github.com/parallelscore/openimis-be-policy_py@develop#egg=openimis-be-policy"
+      "pip": "git+https://github.com/openimis/openimis-be-policy_py@develop#egg=openimis-be-policy"
     },
     {
       "name": "contribution",
